@@ -14,8 +14,8 @@ public class Main {
         int salary = 15000;
         int total = 0;
         for (int i = 0; total <= 2459000; i++) {
-            total = total + total / 100;
-            total = total + salary;
+            total += total / 100;
+            total += salary;
             System.out.println("Месяц " + i + " , сумма накоплений равна " + total + " рублей");
 
 
@@ -54,8 +54,8 @@ public class Main {
     }
 
     private static void task4() {
-        int savings = 15000;
-        int total = 0;
+        long savings = 15000;
+        long total = 0;
         int i = 1;
         for (; i <= 108; i++) {
             total += savings / 100 * 7;
