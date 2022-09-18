@@ -69,12 +69,12 @@ public class Main {
         long savings = 15000;
         long total = 0;
         long totalSavings = 12_000_000;
-        int i = 1;
-        for (; savings <= totalSavings; i++) {
+        int mounth = 1;
+        for (; savings <= totalSavings; mounth++) {
             total += savings / 100 * 7;
             savings += total;
 
-            System.out.println("Месяц " + i + " , сумма накоплений равна " + savings + " рублей");
+            System.out.println("Месяц " + mounth + " , сумма накоплений равна " + savings + " рублей");
         }
     }
 
@@ -83,12 +83,12 @@ public class Main {
         long savings = 15000;
         long total = 0;
         long totalSavings = 12_000_000;
-        int i = 1;
-        for (; savings <= totalSavings; i++) {
+        int mounth= 1;
+        for (; savings <= totalSavings; mounth++) {
             total += savings / 100 * 7;
             savings += total;
-            if (i % 6 == 0) {
-                System.out.println("Месяц " + i + " , сумма накоплений равна " + savings + " рублей");
+            if (mounth % 6 == 0) {
+                System.out.println("Месяц " + mounth + " , сумма накоплений равна " + savings + " рублей");
             }
 
         }
