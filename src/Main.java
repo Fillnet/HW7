@@ -10,7 +10,6 @@ public class Main {
         task8();
         task9();
     }
-
     private static void task1() {
         System.out.println("Задание 1");
         int salary = 15000;
